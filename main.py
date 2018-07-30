@@ -20,9 +20,9 @@ def update_screen():
 #logic loop
 running = True
 while running:
-  for event in pygame.event.get()
-  if event.type is pygame.QUIT:
-    running = False
+  for event in pygame.event.get():
+    if event.type is pygame.QUIT:
+      running = False
   #print event
   update_screen()
   clock.tick(60)
